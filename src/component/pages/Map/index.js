@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import App from '../../compt/map2/index'
 import Navbar from '../../compt/Navbar'
 import SimpleMap from '../../compt/map'
 import axios from 'axios'

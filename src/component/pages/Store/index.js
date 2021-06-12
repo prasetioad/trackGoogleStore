@@ -34,8 +34,8 @@ function Index(props) {
                             <div className="storeImg">
                                 <img src={item.image_url_stand} alt="image" key={index}/>
                             </div>
-                            <div className="storeName">
-                                <span>{data.nama}</span>
+                            <div className="storeName"  style={{color:'white', marginTop:'10px'}}>
+                                <span>{item.nama}</span>
                             </div>
                         </div>
                         )})
